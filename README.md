@@ -1,4 +1,4 @@
-1. Describe how your exchange works.
+1. Describe how your exchange works.\n
 My exchange will start with mallocing memory for necessary objects like trader list and product list. 
 It will read the command line arguments as per specs and make fifos accordingly and open pipes with 
 traders replacing as exchange's children. I am using linked list for storing orders in a decending 
